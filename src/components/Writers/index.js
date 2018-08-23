@@ -36,14 +36,14 @@ export default class extends Component {
           } />
 
           <Route path={`${url}/:writerId`} render={
-            ({ match }) => {
-              const writer = this.getWriter(match.params.writerId);
+            props => {
+              const writer = this.getWriter(props.match.params.writerId);
 
               if (!writer) {
                 return <NotFound />
               }
 
-              return <Writer {...writer} />
+              return <Writer {...props} {...writer} />
             }
             // props => <Writer { ...props } writer={this.getWriter(props.match.params.writerId)} />
           } />
