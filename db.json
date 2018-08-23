@@ -1,0 +1,27 @@
+{
+	"writers": [
+		{
+			"id": 				"parry",
+			"name": 			"Parry Gupta",
+			"dob":				"14 Aug 1991"
+		},
+
+		{
+			"id": 				"bharat",
+			"name": 			"Bharat Gupta",
+			"dob":				"03 Nov 1989"
+		},
+
+		{
+			"id": 				"dave",
+			"name": 			"David Son",
+			"dob":				"19 Jun 1995"
+		},
+
+		{
+			"id": 				"carl",
+			"name": 			"Carl Junior",
+			"dob":				"23 Sept 1982"
+		}
+	]
+}
